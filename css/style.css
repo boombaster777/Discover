@@ -28,6 +28,7 @@ body {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  padding: 0 15px;
 }
 
 nav ul {
@@ -78,4 +79,7 @@ header .container {
   position: absolute;
   top: 45px;
   left: 40px;
+}
+.mini-menu {
+  display: none;
 }
