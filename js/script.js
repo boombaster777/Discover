@@ -10,7 +10,14 @@ $(function(){
 
     $('.service-slider').slick({
         arrows:false,
-        dots:true
+        dots:true,
+        responsive:[{
+            breakpoint:600,
+            settings:{
+                dots:false,
+                centerMode:true
+            }
+        }]
     });
 });
 
