@@ -4,6 +4,8 @@ $(function(){
             $('nav ul').slideDown();    
         }else{
         $('nav ul').slideUp();
+        $('nav ul').resize();
         }
     });
 });
+
