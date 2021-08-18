@@ -7,5 +7,10 @@ $(function(){
         $('nav ul').resize();
         }
     });
+
+    $('.service-slider').slick({
+        arrows:false,
+        dots:true
+    });
 });
 
